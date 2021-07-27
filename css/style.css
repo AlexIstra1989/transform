@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+
+
+.content {
+    background-image: url("/img/bg.png");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;  
+    overflow: hidden;
+}
+
+.card {
+    width: 450px;
+    height: 376px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    transition: 3s;
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -ms-transition: 3s;
+    -o-transition: 3s;
+    position: absolute;
+}
+
+.card:hover {
+    transform: rotate(720deg) scale(1.2);
+    background-color:rgb(8, 220, 231);
+    -webkit-transform: rotate(720deg) scale(1.2);
+    -moz-transform: rotate(720deg) scale(1.2);
+    -ms-transform: rotate(720deg) scale(1.2);
+    -o-transform: rotate(720deg) scale(1.2);
+    position: absolute;
+}
+
+.content__img {
+    padding-top: 15px;
+    width: 70%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+.content__title {
+    font-style: italic;
+    padding-top: 5px;
+}
+
+.content__text {
+    max-width: 300px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 10px;
+}
+
+.content__card-rio {
+    left: 170px;
+    top: 75px;
+}
+
+.content__card-rio:hover {
+    z-index: 88;
+}
+
+.content__card-london {
+    left: 240px;
+    top: 45px;
+    
+}
+
+.content__card-london:hover {
+    z-index: 77;
+}
+
+.content__card-rome {
+    right: 85px;
+    top: 40px;
+}
+
+.content__card-rome:hover {
+    z-index: 126;
+}
+
+.content__card-sydney {
+    right: 365px;
+    bottom: 45px;
+}
+
+.content__card-sydney:hover {
+    z-index: 130;
+}
+
+.content__card-moscow {
+    right: 511px;
+    top: 40px;
+}
+
+.content__card-moscow:hover {
+    z-index: 124;
+}
+
+.content__card-china {
+    left: 80px;
+    bottom: 35px;
+}
+
+.content__card-china:hover {
+    z-index: 123;
+}
+
+.content__card-barcelona {
+    left: 440px;
+    bottom: 80px;
+}
+
+.content__card-dubai {
+    right: 0;
+    bottom: 80px;
+}
+
+.content__card-dubai:hover {
+    z-index: 222;
+}
+
+.content__card-paris {
+    right: 225px;
+    top: 185px;
+}
